@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSINES INCUBATION CENTER</title>
+    <!-- BOOTSTRAP AND FONT AWESOME CSS LINKS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/style.css">
+
+</head>
+<body >
+
+    
+    
+    <section id="navsection " >
+    <!-- NAVBAR -->
+    <nav class="navbar  navbar-expand-lg fixed-top px-5">
+        
+            <a href="#" class="navbar-brand   ">
+               <div >
+                <img src="/IMAGES/bic-logo.png" alt="bic-logo"><font color="#114024" >  FJWU</font><font color="#312783" >BIC</font>
+               </div>
+            </a>
+            <!-- Toggle button for responsiveness nav -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <input type="checkbox" name="checkbox" id="toggle-menu">
+                <label for="toggle-menu" type="button" class="toggle-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </label>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown" >
+                        <a href="#about" class="nav-link dropdown-toggle" id="drop_cases" role="button" data-bs-toggle="dropdown">ABOUT</a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="FAQ.html" class="dropdown-item">FAQ </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="dropdown-item">TEAM </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="dropdown-item">STARTUPS </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="dropdown-item">PROGRAMS</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a href="#" class="dropdown-item">COURSES</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a href="#" class="dropdown-item">EVENTS <i class="fa-solid fa-circle-chevron-down"></i></a>
+                                <ul class="dropdown-submenu">
+                                    <li>
+                                        <a href="#" class="dropdown-item">Ongoing</a>  
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">Recent</a>  
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">Upcoming</a>  
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="#facilities" class="nav-link">FACILITIES</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="#gallery" class="nav-link">PHOTOGALLERY</a>
+                    </li> 
+                    <li class="nav-item" >
+                        <a href="collaborators.html" class="nav-link">PARTNERS</a>
+                    </li> 
+                    <li class="nav-item" >
+                        <a href="contactus.html" class="nav-link">CONTACT</a>
+                    </li> 
+                </ul>
+
+            </div>
+        
+    </nav>
+
+        <!-- MOBILE VIEW -->
+         <div class="modal modal1 fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="/IMAGES/bic-logo.png" alt="logo">
+                    </div>
+                    <div class="modal-body">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link active" aria-current="page">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown" >
+                                <a href="#" class="nav-link dropdown-toggle" id="drop_cases" role="button" data-bs-toggle="dropdown">ABOUT</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="FAQ.html" class="dropdown-item">FAQ </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="dropdown-item">TEAM </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="dropdown-item">STARTUPS </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="dropdown-item">PROGRAMS</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a href="#" class="dropdown-item">COURSES</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a href="#" class="dropdown-item">EVENTS <i class="fa-solid fa-circle-chevron-down"></i></a>
+                                        <ul class="dropdown-submenu">
+                                            <li>
+                                                <a href="#" class="dropdown-item">Ongoing</a>  
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Recent</a>  
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown-item">Upcoming</a>  
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item" >
+                                <a href="#facilities" class="nav-link">FACILITIES</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a href="#" class="nav-link">PHOTOGALLERY</a>
+                            </li> 
+                            <li class="nav-item" >
+                                <a href="#" class="nav-link">PARTNERS</a>
+                            </li> 
+                            <li class="nav-item" >
+                                <a href="#" class="nav-link">CONTACT</a>
+                            </li> 
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            <label for="toggle-menu">
+                                Close
+                            </label>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+    </section>
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="headingbox d-flex align-items-center">
+             
+                <div class="col-md-6  text ">
+                    <h1>BUSINESS INCUBATION CENTER</h1>
+                    <h2>Connect, Collaborate & Create</h2>
+                    <h5>Invest your time and efforts on running your business</h5>
+                    <div class="d-flex justify-content-center">
+                        <a href="contactus.html" class="btn align-self-center mx-auto">Connect With Us</a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-5 text-center">
+                    <img src="/IMAGES/herosectionpic.jpg" class="img-fluid rounded-pill " alt="">
+                </div>
+            
+            
+            
+        </div> 
+    </section>
+
+    <!-- WELCOME -->
+    <section id="about">
+      <div id="events" class="container-fluid px-lg-5   my-5">
+         <div class="row eventboxdesign  p-5">
+            <div class="col-lg-6">
+            <div class="p-2">
+               <div class="header text-style text-center" >
+                 <h1 >WELCOME TO</h1>
+                 <h2 id="heading" class="fw-bold ">BUSINESS INCUBATION CENTER</h2>
+               </div>
+               <div class="para text-style py-3 ">
+             <p id="eventtext" class="py-2">Our Business Incubation Center will support new startup companies in their initial Development stage by providing an array of targeted resources and services.</p> 
+             
+             <div class="d-flex justify-content-center py-3">
+              <a href="aboutus.html" class="btn align-self-center w-50">More About Us</a>
+              
+          </div>
+          <div class="d-flex justify-content-center py-3 ">
+            <a href="contactus.html" class="btn align-self-center w-50 ">Connect With Us</a>
+        </div>
+            </div>
+             
+            </div>
+            </div>
+            <div class="col-lg-6 ">
+    <div class="d-flex align-items-center justify-content-center">
+    <img id="eventimg" class="img-fluid" src="/IMAGES/AboutPic.jpg" >
+    </div>
+            </div>
+         </div>
+    
+      </div>
+     
+    </section>
+    
+     <!-- FACILITIES -->
+    <section id="facilities">
+        <div id="facilitiesHeading" class=" d-flex align-items-center justify-content-center m-4">
+            <h1>FACILITIES</h1>
+        </div>
+        <div class="cardsbox d-flex  justify-content-center align-items-center">
+            <div class=" m-auto cards">
+      
+                <div class="animate__animated animate bounce card  " >
+                  <div class="container mt-3">
+                    <img src="/IMAGES/incubationimg.png" class="card-img-top " alt="..."></div>
+                  <div class="card-body">
+                    <h5 class="card-title ms-1">6 months Incubation Cycle</h5>
+                    <p class="card-text mb-5 ms-1">The 6-month intensive program at BIC was created with consideration towards the needs of entrepreneurs.</p>
+                
+                    <!-- <a href="https://freesnippetcode.blogspot.com/" target="_blank" class="btn btn-primary mb-1 mt-1 ">Go now</a> -->
+                  </div>
+                </div>
+                  </div>
+        
+        
+                  <div class="m-auto cards">
+          
+                    <div class="animate__animated animate bounce card " >
+                      <div class="container mt-3">
+                        <img src="/IMAGES/networkingimg.png" class="card-img-top " alt="..."></div>
+                      <div class="card-body">
+                        <h5 class="card-title ms-1">Networking Opportunities</h5>
+                        <p class="card-text mb-5 ms-1">Networking opportunities with fellow startups and by attending different events.</p>
+                    
+                        <!-- <a href="https://freesnippetcode.blogspot.com/" target="_blank" class="btn btn-primary mb-1 mt-1 ">Go now</a> -->
+                      </div>
+                    </div>
+                      </div>
+        
+        
+                      <div class="m-auto cards">
+          
+                        <div class="animate__animated animate bounce card ">
+                          <div class="container mt-3">
+                            <img src="/IMAGES/workshopimg.png" class="card-img-top " alt="..."></div>
+                          <div class="card-body">
+                            <h5 class="card-title ms-1">Workshop and Bootcamps</h5>
+                            <p class="card-text mb-5 ms-1">Opportunity to attend workshops and bootcamps to make your startups a success.</p>
+                        
+                            <!-- <a href="https://freesnippetcode.blogspot.com/" target="_blank" class="btn btn-primary mb-1 mt-1 ">Go now</a> -->
+                          </div>
+                        </div>
+                          </div>
+                
+        </div>
+        <div class=" d-flex align-items-center justify-content-center  ">
+            <a href="facilities.html" target="_blank" class=" facilitiesbtn btn btn-primary mt-5  mb-1" >View More</a>
+        </div>
+    </section>
+    <!-- GALLERY -->
+    <!-- <section id="gallery" class="mb-5">
+        <div class="gallery-text text-center  mb-3">
+         <p>GALLERY</p>
+        </div>
+        <div class="gallery port  m-0 p-0">
+         <div class="container ">
+           <div class="row ">
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup1">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic1.jpg" >
+                
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup2">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic2.jpg" >
+                
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup3">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic3.jpg" >
+                
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item " data-bs-toggle="modal" data-bs-target="#popup4">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic4.jpg" >
+                 
+               </div>
+               
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup5">
+                 <img src="/IMAGES/GalleryPic3.jpg" >
+                
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup6">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic4.jpg" >
+               
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup7">
+                 <img class="img-fluid"  src="/IMAGES/GalleryPic1.jpg" >
+                 
+               </div>
+               
+             </div>
+             <div class="col-lg-3 col-sm-12 m-0 p-0">
+               <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#popup8">
+                 <img class="img-fluid" src="/IMAGES/GalleryPic2.jpg" >
+                 
+               </div>
+               
+             </div>
+           </div>
+         </div>
+        </div>
+        < popup modals -->
+            <!-- <div class="modal modal2 fade " id="popup1">
+              <div class="modal-dialog ">
+               <div class="modal-content ">
+                 <div class="modal-header ">
+                   <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                 </div>
+                 <div class="modal-body ">
+                   <img class="w-100" src="/IMAGES/GalleryPic1.jpg" >
+                 </div>
+                
+               </div>
+              </div>
+            </div>
+            <div class="modal modal2 fade " id="popup1">
+             <div class="modal-dialog ">
+              <div class="modal-content ">
+                <div class="modal-header ">
+                  <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                  <img class="w-100" src="/IMAGES/GalleryPic1.jpg" >
+                </div>
+               
+              </div>
+             </div>
+           </div>
+           <div class="modal modal2 fade " id="popup2">
+             <div class="modal-dialog ">
+              <div class="modal-content ">
+                <div class="modal-header ">
+                  <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                  <img class="w-100" src="/IMAGES/GalleryPic2.jpg" >
+                </div>
+               
+              </div>
+             </div>
+           </div>
+           <div class="modal modal2 fade " id="popup3">
+             <div class="modal-dialog ">
+              <div class="modal-content ">
+                <div class="modal-header ">
+                  <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                  <img class="w-100" src="/IMAGES/GalleryPic3.jpg" >
+                </div>
+               
+              </div>
+             </div>
+           </div>
+           <div class="modal modal2 fade " id="popup4">
+             <div class="modal-dialog ">
+              <div class="modal-content ">
+                <div class="modal-header ">
+                  <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                  <img class="w-100" src="/IMAGES/GalleryPic4.jpg" >
+                </div>
+               
+              </div>
+             </div>
+           </div>
+               
+              </div>
+             </div>
+           </div>
+           <div class="modal fade modal2 " id="popup5">
+            <div class="modal-dialog ">
+             <div class="modal-content ">
+               <div class="modal-header ">
+                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body ">
+                 <img class="w-100" src="/IMAGES/GalleryPic3.jpg" >
+               </div>
+              
+             </div>
+            </div>
+          </div>
+          <div class="modal fade modal2 " id="popup6">
+            <div class="modal-dialog ">
+             <div class="modal-content ">
+               <div class="modal-header ">
+                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body ">
+                 <img class="w-100" src="/IMAGES/GalleryPic4.jpg" >
+               </div>
+              
+             </div>
+            </div>
+          </div>
+          <div class="modal fade modal2" id="popup7">
+            <div class="modal-dialog ">
+             <div class="modal-content ">
+               <div class="modal-header ">
+                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body ">
+                 <img class="w-100" src="/IMAGES/GalleryPic1.jpg" >
+               </div>
+              
+             </div>
+            </div>
+          </div>
+          <div class="modal fade modal2 " id="popup8">
+            <div class="modal-dialog ">
+             <div class="modal-content ">
+               <div class="modal-header ">
+                 <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body ">
+                 <img class="w-100" src="/IMAGES/GalleryPic2.jpg" >
+               </div>
+              
+             </div>
+            </div>
+          </div>
+         </section> --> 
+         <div class="container text-center py-5">
+          <div class="gallery-text text-center  mb-3">
+            <p>GALLERY</p>
+           </div>
+          <div class="row justify-content-center">
+            <div class=" col-md-11">
+              <div class="row justify-content-center mb-5">
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0" src="/IMAGES/GalleryPic1.jpg" class="img-fluid">
+                </a>
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="1" src="/IMAGES/GalleryPic2.jpg" class="img-fluid">
+                </a>
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="2" src="/IMAGES/GalleryPic3.jpg" class="img-fluid">
+                </a>
+              </div>
+              <div class="row justify-content-center ">
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="0" src="/IMAGES/GalleryPic1.jpg" class="img-fluid">
+                </a>
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="1" src="/IMAGES/GalleryPic2.jpg" class="img-fluid">
+                </a>
+                <a href="#" class="col-sm-4" data-bs-toggle="modal" data-bs-target="#exampleLightbox">
+                  <img data-bs-target="#lightboxExampleCarousel" data-bs-slide-to="2" src="/IMAGES/GalleryPic3.jpg" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="modal fade" id="exampleLightbox" tabindex="-1" aria-labelledby="exampleLightboxLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content  ">
+              <div class="modal-header">
+                <h5 class="modal-title " id="exampleLightboxLabel">PhotoGallery</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body bg-dark  ">
+                <div id="lightboxExampleCarousel" class="carousel slide">
+                  <div class="carousel-inner ratio ratio-16x9 bg-dark">
+                    <div class="carousel-item text-center active ">
+                      <img src="/IMAGES/GalleryPic1.jpg" class="img-fluid mh-100">
+                    </div>
+                    <div class="carousel-item text-center">
+                      <img src="/IMAGES/GalleryPic2.jpg" class="img-fluid mh-100">
+                    </div>
+                    <div class="carousel-item text-center">
+                      <img src="/IMAGES/GalleryPic3.jpg" class="img-fluid mh-100">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#lightboxExampleCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#lightboxExampleCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- Footer -->
+         <section>
+          <footer class="footer">
+            <p>Powered by BUSINESS INCUBATION CENTRE</p>
+            <p>&copy; 2024 BUSINESS INCUBATION CENTRE. All rights reserved.</p>
+            <p>Contact us: bic@fjwu.edu.pk | 051-9292866</p>
+        </footer>
+         </section>
+    <!-- JAVASCRIPT -->
+    
+      
+    <!-- BOOTSTRAP AND FONT AWESOME JS LINKS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Facilities</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto Slab';
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color:#ffffff;
+           
+        }
+        .navbar .nav-item .nav-link{
+            color: #312783 ;
+            font-size: 80;
+            margin-left: 30px;
+            
+           
+        }
+   .navbar .nav-item .nav-link:hover{
+      color: #2d5ba9;
+      
+   }
+  
+
+        .navbar-brand img {
+            height: 80px;
+        }
+        .hero {
+            background-color: #EA572E;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 4em;
+            font-weight: 900;
+            font-family: 'Roboto slab';
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h1 {
+            color: #EA572E;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .card {
+            width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+        }
+        .card h2 {
+            margin: 20px 0;
+        }
+        .card p {
+            font-size: 14px;
+        }
+        .yellow {
+            background-color: #f7b500;
+        }
+        .blue {
+            background-color: #007bff;
+        }
+        .red {
+            background-color: #e63946;
+        }
+        .icon {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer p:hover {
+            text-decoration: underline;
+            cursor:pointer;
+        }
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .navbar ul {
+                flex-direction: column;
+                width: 100%;
+            }
+            .navbar ul li {
+                width: 100%;
+                text-align: center;
+                margin: 0.5rem 0;
+            }
+            .navbar .apply-now {
+                width: 100%;
+                text-align: center;
+                margin-top: 1rem;
+            }
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero {
+                padding: 2rem 1rem;
+            }
+            .content {
+                padding: 1rem;
+            }
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/IMAGES/bic-logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="facilities.html">FACILITIES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">PHOTOGALERY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="collaborators.html">PARTNERS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">CONTACT</a></li>
+                    </ul>
+                    <!-- <a href="contactus.html" class="btn btn-outline-light ms-3">Apply Now</a> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>FACILITIES</h1>
+    </section>
+    <section class="content">
+        <h2>Trust the Experience</h2>
+    </section>
+    <div class="container">
+        <div class="card blue">
+            <div class="icon">🌐</div>
+            <h2>Networking Opportunities</h2>
+            <p>Networking opportunities with fellow startups and by attending different events.</p>
+        </div>
+        <div class="card red">
+            <div class="icon">👨‍🏫</div>
+            <h2>Mentorship & Coaching</h2>
+            <p>Every startup will have a dedicated coach and will have access to carefully selected mentors who would help resident startups build a business around their tech ideas.</p>
+        </div>
+        <div class="card yellow">
+            <div class="icon">💻</div>
+            <h2>Office Workspace</h2>
+            <p>The co-working facility provides high-speed Wi-Fi and LAN connections, printing and scanning capabilities, access to meeting spaces and breakout areas, and other amenities that make it simple for them to operate effectively and efficiently.</p>
+        </div>
+        <div class="card yellow">
+            <div class="icon">💰</div>
+            <h2>6 months Incubation Cycle</h2>
+            <p>The 6-month intensive programme at BIC was created with consideration towards the needs of nearby entrepreneurs.</p>
+        </div>
+        <div class="card blue">
+            <div class="icon">👨‍🏫</div>
+            <h2>Workshops and Bootcamp</h2>
+            <p>Opportunity to attend workshops and bootcamps to make your startups a success.</p>
+        </div>
+        <div class="card red">
+            <div class="icon">🌍</div>
+            <h2>National and International Exposures</h2>
+            <p>Get national and international exposure by attending events / conferences fully sponsored by BIC.</p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>Powered by BUSINESS INCUBATION CENTRE</p>
+        <p>&copy; 2024 BUSINESS INCUBATION CENTRE. All rights reserved.</p>
+        <p>Contact us: bic@fjwu.edu.pk | 051-9292866</p>
+    </footer>
+</body>
+</html>
+
+

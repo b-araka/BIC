@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="/CSS/aboutstyle.css">
+   <title>Document</title>
+</head>
+<body>
+   <section id="navsection " >
+      <!-- NAVBAR -->
+      <nav class="navbar  navbar-expand-lg fixed-top px-5">
+          
+              <a href="#" class="navbar-brand   ">
+                 <div >
+                  <img src="/IMAGES/bic-logo.png" alt="bic-logo"><font color="#114024" >  FJWU</font><font color="#312783" >BIC</font>
+                 </div>
+              </a>
+              <!-- Toggle button for responsiveness nav -->
+              <button type="button" class="navbar-toggler" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <input type="checkbox" name="checkbox" id="toggle-menu">
+                  <label for="toggle-menu" type="button" class="toggle-btn">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                  </label>
+              </button>
+              <div class="collapse navbar-collapse">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link active" aria-current="page">HOME</a>
+                      </li>
+                      <li class="nav-item dropdown" >
+                          <a href="#about" class="nav-link dropdown-toggle" id="drop_cases" role="button" data-bs-toggle="dropdown">ABOUT</a>
+                          <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                  <a href="FAQ.html" class="dropdown-item">FAQ </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="dropdown-item">TEAM </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="dropdown-item">STARTUPS </a>
+                              </li>
+                              <li class="nav-item">
+                                  <a href="#" class="dropdown-item">PROGRAMS</a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                  <a href="#" class="dropdown-item">COURSES</a>
+                              </li> -->
+                              <li class="nav-item">
+                                  <a href="#" class="dropdown-item">EVENTS <i class="fa-solid fa-circle-chevron-down"></i></a>
+                                  <ul class="dropdown-submenu">
+                                      <li>
+                                          <a href="#" class="dropdown-item">Ongoing</a>  
+                                      </li>
+                                      <li>
+                                          <a href="#" class="dropdown-item">Recent</a>  
+                                      </li>
+                                      <li>
+                                          <a href="#" class="dropdown-item">Upcoming</a>  
+                                      </li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
+                      <li class="nav-item" >
+                          <a href="#facilities" class="nav-link">FACILITIES</a>
+                      </li>
+                      <li class="nav-item" >
+                          <a href="#gallery" class="nav-link">PHOTOGALLERY</a>
+                      </li> 
+                      <li class="nav-item" >
+                          <a href="collaborators.html" class="nav-link">PARTNERS</a>
+                      </li> 
+                      <li class="nav-item" >
+                          <a href="contactus.html" class="nav-link">CONTACT</a>
+                      </li> 
+                  </ul>
+  
+              </div>
+          
+      </nav>
+  
+          <!-- MOBILE VIEW -->
+           <div class="modal modal1 fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <img src="/IMAGES/bic-logo.png" alt="logo">
+                      </div>
+                      <div class="modal-body">
+                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                  <a href="index.html" class="nav-link active" aria-current="page">HOME</a>
+                              </li>
+                              <li class="nav-item dropdown" >
+                                  <a href="#" class="nav-link dropdown-toggle" id="drop_cases" role="button" data-bs-toggle="dropdown">ABOUT</a>
+                                  <ul class="dropdown-menu">
+                                      <li class="nav-item">
+                                          <a href="FAQ.html" class="dropdown-item">FAQ </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="#" class="dropdown-item">TEAM </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="#" class="dropdown-item">STARTUPS </a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a href="#" class="dropdown-item">PROGRAMS</a>
+                                      </li>
+                                      <!-- <li class="nav-item">
+                                          <a href="#" class="dropdown-item">COURSES</a>
+                                      </li> -->
+                                      <li class="nav-item">
+                                          <a href="#" class="dropdown-item">EVENTS <i class="fa-solid fa-circle-chevron-down"></i></a>
+                                          <ul class="dropdown-submenu">
+                                              <li>
+                                                  <a href="#" class="dropdown-item">Ongoing</a>  
+                                              </li>
+                                              <li>
+                                                  <a href="#" class="dropdown-item">Recent</a>  
+                                              </li>
+                                              <li>
+                                                  <a href="#" class="dropdown-item">Upcoming</a>  
+                                              </li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item" >
+                                  <a href="facilities.html" class="nav-link">FACILITIES</a>
+                              </li>
+                              <li class="nav-item" >
+                                  <a href="#" class="nav-link">PHOTOGALLERY</a>
+                              </li> 
+                              <li class="nav-item" >
+                                  <a href="collaborators.html" class="nav-link">PARTNERS</a>
+                              </li> 
+                              <li class="nav-item" >
+                                  <a href="contactus.html" class="nav-link">CONTACT</a>
+                              </li> 
+                          </ul>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                              <label for="toggle-menu">
+                                  Close
+                              </label>
+                          </button>
+                      </div>
+                  </div>
+              </div>
+  
+           </div>
+      </section>
+   <section class="about-section ">
+      <div class="container">
+          <div class="row">                
+              <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                  <div class="inner-column">
+                      <div class="sec-title">
+                          <span class="title">About Us</span>
+                          <h2>Connect with us for growth and prosperity</h2>
+                      </div>
+                      <div class="text">Fatima Jinnah Women University (FJWU) has established a “Business Incubation Centre” (BIC) in Jan 2023 with the initial support and a grant from the Higher Education Commission (HEC). The primary objective of the BIC is to foster an entrepreneurial spirit among students, researchers, faculty members, and alumni, encouraging them to create new enterprises and contribute to the overall strengthening and development of the innovation ecosystem. By providing guidance and support to young and budding entrepreneurs, the FJWU-BIC aims to act as a catalyst for economic development, employment generation, and technology commercialization. The ultimate goal of the FJWU-BIC is to nurture successful firms that will eventually become financially viable and independent.</div>
+                    <div class="text">
+                     The FJWU-BIC will offer a range of targeted resources and services to support new and startup companies during their initial development stages. These services, either developed or arranged by the business incubator, will be directly provided or facilitated through its network of contacts. Graduates of the FJWU-BIC program have the potential to create jobs, revitalize neighborhoods, commercialize new technologies, and contribute to the growth of local and national economies. By shifting the focus from creating job seekers to job providers, our aim is to empower girls to become drivers of employment opportunities. The integration of students, entrepreneurs, and universities is a key aspect of the FJWU-BIC, as business incubators tied to academic institutions have the greatest impact on the economy.
+                    </div>
+                      <div class="btn-box">
+                          <a href="contactus.html" class="theme-btn btn-style-one text-decoration-none text-white">Contact Us</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image Column -->
+              <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                  <div class="inner-column wow fadeInLeft">
+                    <div class="author-desc">
+                      <h2>FJWU</h2>
+                      <span>Business Incubation Center</span>
+                    </div>
+                      <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img title="FJWU BIC" src="/IMAGES/about-image.jpg" alt=""></a></figure>
+                   
+                  </div>
+              </div>
+            
+          </div>
+         
+                  
+    
+      </div>
+  </section>
+  <section>
+   <div class="sec-title text-center ">
+      <!-- <span class="title">Our Future Goal</span> -->
+      <h2 class="p-5">Provides Incubation chamber to help startup business succeed and grow by providing low cost workspace, mentorship and access to professional assistance</h2>
+  <img src="/IMAGES/aboutus-img-2.jpg">
+   </div>
+  </section>
+  <section>
+       <!-- Mission Vision cards -->
+       <div class="deck  d-flex align-items-center justify-content-center ">
+         <div class="card-space">
+           <div class="card ">
+             <div class="face front d-flex align-items-center justify-content-center">
+               <h1>Our Mission </h1>
+             </div>
+             <div class="face back d-flex align-items-center justify-content-center">
+               <p>To support women to achieve their full potential through active involvement in learning business and community development</p>
+             </div>
+           </div>
+         </div>
+         <div class="card-space">
+           <div class="card">
+             <div class="face front d-flex align-items-center justify-content-center">
+               <h1>Our Vision </h1>
+             </div>
+             <div class="face back d-flex align-items-center justify-content-center">
+               <p>Inspiring solutions to build entrepreneurial ecosystem for women empowerment</p>
+             </div>
+           </div>
+         </div>
+       </div>
+      
+  </section>
+    <!-- Footer -->
+    <section>
+      <footer class="footer mt-5">
+        <p>Powered by BUSINESS INCUBATION CENTRE</p>
+        <p>&copy; 2024 BUSINESS INCUBATION CENTRE. All rights reserved.</p>
+        <p>Contact us: bic@fjwu.edu.pk | 051-9292866</p>
+    </footer>
+     </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
